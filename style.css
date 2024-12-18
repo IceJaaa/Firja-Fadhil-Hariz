@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Styling */
+.app-container {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    color: #333333;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.app-header {
+    background: #007bff;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #00c6ff;
+}
+
+.app-header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.app-header p {
+    font-size: 1rem;
+}
+
+.app-main {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: bold;
+    border: 2px dashed #007bff;
+    border-radius: 6px;
+    background: #f1f8ff;
+}
+
+.app-footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    background: #f8f9fa;
+    color: #666666;
+}

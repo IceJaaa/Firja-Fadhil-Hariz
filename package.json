@@ -1,0 +1,12 @@
+{
+  "name": "Laju aliran pipa (Flow Rate)",
+  "version": "1.0.0",
+  "description": "XXX DESKRIPSI APLIKASI XXX.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^26.6.10"
+  }
+}

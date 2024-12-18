@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Rate Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Flow Rate Calculator</h1>
+            <p>Calculate the flow rate for your pipeline with ease.</p>
+        </header>
+        <main class="app-main">
+            <form id="flowRateForm" class="form">
+                <div class="form-group">
+                    <label for="pressure">Pressure (P) [Pa]:</label>
+                    <input type="number" id="pressure" placeholder="Enter pressure" required>
+                </div>
+                <div class="form-group">
+                    <label for="diameter">Pipe Diameter (D) [m]:</label>
+                    <input type="number" id="diameter" placeholder="Enter diameter" step="0.01" required>
+                </div>
+                <div class="form-group">
+                    <label for="viscosity">Fluid Viscosity (μ) [Pa·s]:</label>
+                    <input type="number" id="viscosity" placeholder="Enter viscosity" step="0.0001" required>
+                </div>
+                <button type="button" id="calculateBtn" class="btn">Calculate Flow Rate</button>
+            </form>
+            <div id="result" class="result"></div>
+        </main>
+        <footer class="app-footer">
+            <p>© 2024 Flow Rate Calculator | Designed with 💧 for the Oil & Gas Industry</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
